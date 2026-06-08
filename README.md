@@ -35,8 +35,8 @@ YourNotes: A backend notes management API
 ### Tech Stack
 Go, PostgreSQL, SQLC, Docker
 ### Features
-* Developed a RESTful backend API using Go, supporting full CRUD operations for note management
-∗ Implemented JWT authentication with refresh tokens for secure and scalable session handling
-∗ Enforced a business logic constraint of a maximum of 3 pinned notes per user
-∗ Integrated PostgreSQL with sqlc for type-safe and efficient database interactions
-∗ Containerized the application using Docker and published the image on Docker Hub for deployment
+- Developed a RESTful backend API using Go, supporting full CRUD operations for note management
+- Implemented JWT authentication with refresh tokens for secure and scalable session handling
+- Enforced a business logic constraint of a maximum of 3 pinned notes per user
+- Integrated PostgreSQL with sqlc for type-safe and efficient database interactions
+- Containerized the application using Docker and published the image on Docker Hub for deployment
