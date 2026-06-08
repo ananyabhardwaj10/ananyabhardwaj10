@@ -22,8 +22,21 @@ I work with Go. It is my primary language.
 For databases, I use PostgreSQL. 
 I design RESTful APIs.
 
-## Project
-I am currently working on my project called YourNotes. It is a notes management API that offers proper authentication to the user and all CRUD operations support.
-I have used Golang to build it.
-Postgres is used along with SQLC to generate type safe queries.
-I have also containerized the application and published the image on Docker Hub.
+## Project List
+### Project Title 
+ShopFlow - A production ready e-commerce backend built in Go.
+### Tech Stack Used
+Go, PostgreSQL, SQLC, Docker, AWS, JWT auth.
+### Features
+Work In Progress
+
+### Project Title
+YourNotes: A backend notes management API
+### Tech Stack
+Go, PostgreSQL, SQLC, Docker
+### Features
+* Developed a RESTful backend API using Go, supporting full CRUD operations for note management
+∗ Implemented JWT authentication with refresh tokens for secure and scalable session handling
+∗ Enforced a business logic constraint of a maximum of 3 pinned notes per user
+∗ Integrated PostgreSQL with sqlc for type-safe and efficient database interactions
+∗ Containerized the application using Docker and published the image on Docker Hub for deployment
