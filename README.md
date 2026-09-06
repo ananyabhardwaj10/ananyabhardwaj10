@@ -19,9 +19,9 @@ I am Ananya Bhardwaj.
 I am a BTech Computer Science Graduate with a focus on Backend Systems. I build APIs that are reliable, secure, and designed with real word concern in mind, like authentication, authorization, data integrity and clean architecture.
 
 ## Tech Stack
-**Primary:** Go, PostgreSQL, REST APIs
-**Tools & Infrastructure:** SQLC, Goose, JWT Authentication
-**Currently Learning:** AWS (ECS, RDS, ECR), Redis, Docker
+- **Primary:** Go, PostgreSQL, REST APIs
+- **Tools & Infrastructure:** SQLC, Goose, JWT Authentication
+- **Currently Learning:** AWS (ECS, RDS, ECR), Redis, Docker
 
 ## Project List
 ### ShopFlow
