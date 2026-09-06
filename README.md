@@ -15,28 +15,31 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ## Let me introduce myself
-I am Ananya Bhardwaj. A B.Tech Computer Science Graduate, exploring the field of Backend Web Development. I aim to design API's that are fast, scalable and secure.
+I am Ananya Bhardwaj. 
+I am a BTech Computer Science Graduate with a focus on Backend Systems. I build APIs that are reliable, secure, and designed with real word concern in mind, like authentication, authorization, data integrity and clean architecture.
 
 ## Tech Stack
-I work with Go. It is my primary language. 
-For databases, I use PostgreSQL. 
-I design RESTful APIs.
+**Primary:** Go, PostgreSQL, REST APIs
+**Tools & Infrastructure:** SQLC, Goose, JWT Authentication
+**Currently Learning:** AWS (ECS, RDS, ECR), Redis, Docker
 
 ## Project List
-### Project Title 
-ShopFlow - A production ready e-commerce backend built in Go.
-### Tech Stack Used
-Go, PostgreSQL, SQLC, Docker, AWS, JWT auth.
+### ShopFlow
+An e-commerce backend API built in Go that is designed to demonstrate real world backend engineering: multi role authentication, transactional order processing, and scalable API design.
+**Tech-Stack:** Go, PostgreSQL, SQLC, Goose, JWT, Docker (in progress) 
 ### Features
-Work In Progress
-
-### Project Title
-YourNotes: A backend notes management API
-### Tech Stack
-Go, PostgreSQL, SQLC, Docker
+- JWT authentication with refresh token rotation and Argon2id password hashing
+- Role based access control: customers, sellers, with middleware enforced route protection
+- Seller onboarding with atomic transactions
+- Product management with Pagination
+- Cart management and transactional order placement with automatic stock reduction
+- Order Item Status tracking per seller
+### YourNotes
+A backend notes management API build in Go - focused on clean CRUD design, secure authentication, and enforced business logic.
+**Tech-Stack:** Go, PostgreSQL, SQLC, Goose, JWT, Docker
 ### Features
-- Developed a RESTful backend API using Go, supporting full CRUD operations for note management
-- Implemented JWT authentication with refresh tokens for secure and scalable session handling
-- Enforced a business logic constraint of a maximum of 3 pinned notes per user
-- Integrated PostgreSQL with sqlc for type-safe and efficient database interactions
-- Containerized the application using Docker and published the image on Docker Hub for deployment
+- Full CRUD operations for note management via a RESTful API
+- JWT authentication with refresh token rotation for secure session handling
+- Business logic constraint: maximum 3 pinned notes per user enforced at the handler level
+- Type safe database interactions using SQLC with PostgreSQL
+- Containerized with Docker, image published on Docker Hub
